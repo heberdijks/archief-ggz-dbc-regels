@@ -1,0 +1,152 @@
+/**
+* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+* With modifications and (personal) improvement by Pjotr van der Horst
+* http://cssreset.com
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  font: inherit;
+  color: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+ul.unstyled,
+ol.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+
+ul.unordered {
+  padding: 0;
+  margin: 0 0 10px 25px;
+  list-style-type: disc;
+}
+
+ol.ordered {
+  padding: 0;
+  margin: 0 0 10px 25px;
+  list-style-type: decimal;
+}
+
+ul.inline > li, ol.inline > li {
+  display: inline;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+/* temp */
+.radio, .checkbox {
+  min-height: 20px;
+  padding-left: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.radio input[type=radio],
+.checkbox input[type=checkbox],
+.radiocheck {
+  float: left;
+  margin-left: -20px;
+}
+
+body {
+  font: normal 14px/20px "Mako", sans-serif;
+  color: #444;
+  line-height: 150%;
+  font-size: 80%;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  color: #005abb;
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.container {
+  width: 500px;
+  padding: 20px;
+  background-color: #FFFFFF;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0 0 10px 25px;
+  list-style-type: disc;
+}
+
+/*# sourceMappingURL=css-definities.css.map */
